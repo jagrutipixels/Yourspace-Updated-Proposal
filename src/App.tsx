@@ -12,7 +12,6 @@ import { AudiencePsychology } from './components/sections/AudiencePsychology';
 import { BrandPositioning } from './components/sections/BrandPositioning';
 import { ContentEcosystem } from './components/sections/ContentEcosystem';
 import { ContentPillars } from './components/sections/ContentPillars';
-import { CinematicCampaigns } from './components/sections/CinematicCampaigns';
 import { ExecutionSystem } from './components/sections/ExecutionSystem';
 import { ContentEngine } from './components/sections/ContentEngine';
 import { ReelPsychology } from './components/sections/ReelPsychology';
@@ -53,7 +52,6 @@ export default function App() {
         <PerformanceMarketing />
       </div>
       <div id="execution">
-        <CinematicCampaigns />
         <ExecutionSystem />
         <StrategicRequirements />
         <InvestmentValue />

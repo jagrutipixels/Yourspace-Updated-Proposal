@@ -29,7 +29,7 @@ export function ContentEngine() {
     <Section className="bg-[#0a0a0a] py-24">
       <Container>
         <FadeIn className="text-center max-w-4xl mx-auto mb-24">
-          <h2 className="text-[10px] tracking-[0.25em] text-[#ff5c00] uppercase mb-6 font-medium">11 / The Content Plan</h2>
+          <h2 className="text-[10px] tracking-[0.25em] text-[#ff5c00] uppercase mb-6 font-medium">08 / The Content Plan</h2>
           <h3 className="text-4xl md:text-5xl font-medium mb-8 text-white tracking-tight">A Plan That Works Harder For You.</h3>
           <p className="text-xl text-gray-400 font-light leading-relaxed">
             We don't just post randomly. Every video we make can be re-used as an ad, a short, or a website video. First, we get people to know you, then we ask for their business.

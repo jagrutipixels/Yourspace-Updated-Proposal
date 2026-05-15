@@ -6,7 +6,7 @@ export function ExecutionFramework() {
     <Section className="bg-[#0a0a0a] relative overflow-hidden py-24">
       <Container>
         <FadeIn className="text-center max-w-4xl mx-auto mb-20">
-          <h2 className="text-[10px] tracking-[0.25em] text-[#ff5c00] uppercase mb-6 font-medium">16 / Execution Flow</h2>
+          <h2 className="text-[10px] tracking-[0.25em] text-[#ff5c00] uppercase mb-6 font-medium">14 / Execution Flow</h2>
           <h3 className="text-4xl md:text-5xl font-medium mb-6 text-white tracking-tight">How We Make It Happen smoothly.</h3>
           <p className="text-xl text-gray-400 font-light leading-relaxed">
             Creativity needs a system. Here is exactly how we plan, prepare, and shoot your content every single month without wasting your time.

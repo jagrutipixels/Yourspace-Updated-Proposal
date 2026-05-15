@@ -8,7 +8,7 @@ export function InvestmentValue() {
       <Container>
         <div className="max-w-4xl mx-auto text-center relative z-10">
           <FadeIn>
-            <h2 className="text-[10px] tracking-[0.25em] text-[#ff5c00] uppercase mb-6 font-medium">15 / The Investment</h2>
+            <h2 className="text-[10px] tracking-[0.25em] text-[#ff5c00] uppercase mb-6 font-medium">13 / The Investment</h2>
             <h3 className="text-4xl md:text-5xl lg:text-6xl font-medium mb-12 text-white tracking-tight leading-[1.1]">Building a Brand That Grows.</h3>
           </FadeIn>
 

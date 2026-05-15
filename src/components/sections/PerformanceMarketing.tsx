@@ -6,7 +6,7 @@ export function PerformanceMarketing() {
     <Section className="bg-[#0a0a0a] relative py-24">
       <Container>
         <FadeIn className="text-center max-w-4xl mx-auto mb-24">
-          <h2 className="text-[10px] tracking-[0.25em] text-[#ff5c00] uppercase mb-6 font-medium">13 / Paid Strategy</h2>
+          <h2 className="text-[10px] tracking-[0.25em] text-[#ff5c00] uppercase mb-6 font-medium">10 / Paid Strategy</h2>
           <h3 className="text-5xl md:text-6xl font-medium mb-8 text-white tracking-tight leading-[1.1]">Test for Free.<br />Pay to Scale.</h3>
           <p className="text-xl text-gray-400 font-light leading-relaxed">
             We see what videos people like for free, and then we put money behind the winners to turn them into ads that bring in customers.
@@ -40,26 +40,6 @@ export function PerformanceMarketing() {
             </FadeIn>
           ))}
         </div>
-
-        <FadeIn delay={0.3} className="max-w-5xl mx-auto bg-[#0d0d0d] border border-white/[0.04] rounded-[2.5rem] p-10 md:p-16">
-          <h4 className="text-center text-[10px] tracking-[0.25em] text-gray-500 uppercase mb-12 font-medium">The Asset Pipeline</h4>
-          <div className="flex flex-col lg:flex-row items-center justify-between gap-6 md:gap-8">
-            <div className="flex-1 text-center bg-[#141414] p-8 rounded-3xl border border-white/[0.04] w-full">
-               <span className="block text-[#ff5c00] mb-3 text-sm font-medium">01</span>
-               <h5 className="text-white text-lg font-medium">Organic Testing</h5>
-            </div>
-            
-            <div className="flex-1 text-center bg-[#141414] p-8 rounded-3xl border border-white/[0.04] w-full">
-               <span className="block text-[#ff5c00] mb-3 text-sm font-medium">02</span>
-               <h5 className="text-white text-lg font-medium">Data Analysis</h5>
-            </div>
-            
-            <div className="flex-[1.2] text-center bg-[#ff5c00]/[0.05] p-8 rounded-3xl border border-[#ff5c00]/20 w-full shadow-[0_0_30px_rgba(255,92,0,0.05)] pt-10 pb-10">
-               <span className="block text-[#ff5c00] mb-3 text-sm font-medium">03</span>
-               <h5 className="text-white text-xl font-medium text-[#ff5c00]">Scale via Meta Ads</h5>
-            </div>
-          </div>
-        </FadeIn>
       </Container>
     </Section>
   );

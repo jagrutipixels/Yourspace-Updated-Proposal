@@ -6,7 +6,7 @@ export function StrategicRequirements() {
     <Section className="bg-dark">
       <Container>
         <FadeIn className="text-center max-w-3xl mx-auto mb-16">
-          <h2 className="text-sm tracking-[0.2em] text-brand uppercase mb-4">14 / Operations</h2>
+          <h2 className="text-[10px] tracking-[0.25em] text-[#ff5c00] uppercase mb-6 font-medium">12 / Operations</h2>
           <h3 className="text-4xl font-medium">What We Need To Start.</h3>
         </FadeIn>
 

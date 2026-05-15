@@ -10,7 +10,7 @@ export function ReelPsychology() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-center max-w-7xl mx-auto">
           <div>
             <FadeIn>
-              <h2 className="text-[10px] tracking-[0.25em] text-[#ff5c00] uppercase mb-6 font-medium">12 / Content Anatomy</h2>
+              <h2 className="text-[10px] tracking-[0.25em] text-[#ff5c00] uppercase mb-6 font-medium">09 / Content Anatomy</h2>
               <h3 className="text-4xl md:text-5xl lg:text-6xl font-medium mb-8 text-white tracking-tight leading-[1.1]">How We Keep People<br/>Watching.</h3>
               <p className="text-xl text-gray-400 font-light mb-12 leading-relaxed max-w-lg">
                 Every second is engineered to get more views naturally. We structure videos to stop the scroll, educate seamlessly, and repeat invisibly.

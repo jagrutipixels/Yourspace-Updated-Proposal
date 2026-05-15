@@ -12,7 +12,7 @@ export function ExecutionSystem() {
        <div className="absolute top-1/2 left-0 w-full h-[1px] bg-white/[0.04] -translate-y-1/2 hidden lg:block z-0" />
       <Container className="relative z-10">
         <FadeIn className="text-center mb-24">
-          <h2 className="text-[10px] tracking-[0.25em] text-[#ff5c00] uppercase mb-6 font-medium">10 / The Blueprint</h2>
+          <h2 className="text-[10px] tracking-[0.25em] text-[#ff5c00] uppercase mb-6 font-medium">11 / The Blueprint</h2>
           <h3 className="text-5xl font-medium tracking-tight text-white mb-6">Strategic Execution Roadmap.</h3>
         </FadeIn>
 
