@@ -4,14 +4,17 @@
 @theme {
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
   --font-display: "Space Grotesk", ui-sans-serif, system-ui;
-  --color-brand: #ea580c; /* orange-600 */
-  --color-brand-light: #f97316; /* orange-500 */
+  --color-brand: #ff5c00; /* Custom orange */
+  --color-brand-light: #ff7a33; /* custom lighter orange */
   --color-dark: #050505;
   --color-charcoal: #121212;
   --color-deepblue: #0A0F1C;
 }
 
 @layer base {
+  html {
+    scroll-behavior: smooth;
+  }
   body {
     @apply bg-dark text-gray-300 font-sans antialiased overflow-x-hidden selection:bg-brand selection:text-white;
   }

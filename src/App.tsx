@@ -24,6 +24,8 @@ import { FinalVision } from './components/sections/FinalVision';
 import { Header } from './components/ui/Header';
 import { Footer } from './components/sections/Footer';
 
+import { GoToTop } from './components/ui/GoToTop';
+
 export default function App() {
   return (
     <main className="bg-dark text-white selection:bg-brand selection:text-white pb-0">
@@ -59,6 +61,7 @@ export default function App() {
       </div>
       <FinalVision />
       <Footer />
+      <GoToTop />
     </main>
   );
 }

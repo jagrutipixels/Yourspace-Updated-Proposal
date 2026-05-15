@@ -1,6 +1,6 @@
 import { motion } from 'motion/react';
 import { cn } from '../../lib/utils';
-import { ReactNode } from 'react';
+import { ReactNode, ComponentProps } from 'react';
 
 interface SectionProps {
   children: ReactNode;
@@ -24,7 +24,7 @@ export function Container({ children, className }: { children: ReactNode; classN
   );
 }
 
-export function FadeIn({ children, delay = 0, className, key }: { children: ReactNode; delay?: number; className?: string; key?: string | number }) {
+export function FadeIn({ children, delay = 0, className, ...props }: { children: ReactNode; delay?: number; className?: string } & Omit<ComponentProps<typeof motion.div>, 'children' | 'className'>) {
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}
@@ -32,6 +32,7 @@ export function FadeIn({ children, delay = 0, className, key }: { children: Reac
       viewport={{ once: true, margin: "-100px" }}
       transition={{ duration: 0.8, delay, ease: [0.21, 0.47, 0.32, 0.98] }}
       className={className}
+      {...props}
     >
       {children}
     </motion.div>

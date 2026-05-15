@@ -61,7 +61,7 @@ export function Header() {
           <a
             href="#contact"
             onClick={(e) => { e.preventDefault(); scrollTo('contact'); }}
-            className="px-5 py-2.5 bg-brand text-white text-[10px] uppercase tracking-widest font-medium rounded-full hover:bg-brand-light transition-colors shadow-[0_0_15px_rgba(234,88,12,0.3)] hover:shadow-[0_0_20px_rgba(234,88,12,0.5)]"
+            className="px-5 py-2.5 bg-brand text-white text-[10px] uppercase tracking-widest font-medium rounded-full hover:bg-brand-light transition-colors shadow-[0_0_15px_rgba(255,92,0,0.3)] hover:shadow-[0_0_20px_rgba(255,92,0,0.5)]"
           >
             Contact
           </a>

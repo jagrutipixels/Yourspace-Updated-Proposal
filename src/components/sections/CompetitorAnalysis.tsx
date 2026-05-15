@@ -59,13 +59,13 @@ export function CompetitorAnalysis() {
           </FadeIn>
 
           {/* Your Space Doctor */}
-          <FadeIn delay={0.3} className="bg-gradient-to-b from-brand/20 to-charcoal border border-brand/30 p-8 md:p-12 rounded-3xl relative overflow-hidden shadow-[0_0_50px_rgba(234,88,12,0.1)] flex flex-col h-full group">
+          <FadeIn delay={0.3} className="bg-gradient-to-b from-brand/20 to-charcoal border border-brand/30 p-8 md:p-12 rounded-3xl relative overflow-hidden shadow-[0_0_50px_rgba(255,92,0,0.1)] flex flex-col h-full group">
             {/* Inner subtle glow */}
             <div className="absolute top-0 right-0 w-64 h-64 bg-brand/20 blur-[80px] rounded-full pointer-events-none group-hover:bg-brand/30 transition-all duration-700" />
             
             <div className="mb-12 pb-8 border-b border-brand/20 relative z-10">
               <h4 className="text-xs uppercase tracking-widest text-brand mb-3 font-medium flex items-center gap-2">
-                <span className="w-1.5 h-1.5 rounded-full bg-brand animate-pulse shadow-[0_0_8px_rgba(234,88,12,0.8)]" />
+                <span className="w-1.5 h-1.5 rounded-full bg-brand animate-pulse shadow-[0_0_8px_rgba(255,92,0,0.8)]" />
                 The Future
               </h4>
               <h3 className="text-3xl text-white font-medium">Your Space Doctor</h3>
