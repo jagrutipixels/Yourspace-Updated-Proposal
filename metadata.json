@@ -1,0 +1,8 @@
+{
+  "name": "Your Space Doctor - Strategic Proposal",
+  "description": "High-end interactive website-style strategic proposal for Your Space Doctor's brand and content evolution.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
