@@ -43,7 +43,7 @@ export function Hero() {
           transition={{ duration: 0.8, delay: 0.6 }}
           className="max-w-2xl mx-auto text-lg md:text-xl text-gray-400 mb-12 font-light leading-relaxed"
         >
-          A 90-day plan to help <span className="text-white font-medium">Your Space Doctor</span> become the most trusted and recognized name for storage and space management in India.
+          A strategic growth blueprint to establish <span className="text-white font-medium">Your Space Doctor</span> as the definitive authority in premium space management and storage solutions across India.
         </motion.p>
 
         <motion.div

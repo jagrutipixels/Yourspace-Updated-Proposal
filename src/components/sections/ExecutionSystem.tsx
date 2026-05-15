@@ -2,9 +2,9 @@ import { Section, Container, FadeIn } from '../ui/Section';
 
 export function ExecutionSystem() {
   const roadmap = [
-    { month: "Month 01", title: "Establishing Presence", tasks: ["Visual Identity Refresh", "Developing Trust-Focused Content", "Creating Founder & Team Videos", "Deploying Awareness Campaigns"] },
-    { month: "Month 02", title: "Testing & Optimization", tasks: ["Analyzing Performance Data", "Identifying Top Content Formats", "Testing Organic Winners as Ads", "Refining Creative Angles"] },
-    { month: "Month 03", title: "Scaling Operations", tasks: ["Developing Service-Specific Videos", "Expanding Ad Reach Across Hubs", "Deploying Conversion-Focused Ads", "Scaling Budgets on Winning Creatives"] },
+    { month: "Phase 01", title: "Establishing Presence", tasks: ["Visual Identity Refresh", "Developing Trust-Focused Content", "Creating Founder & Team Videos", "Deploying Awareness Campaigns"] },
+    { month: "Phase 02", title: "Testing & Optimization", tasks: ["Analyzing Performance Data", "Identifying Top Content Formats", "Testing Organic Winners as Ads", "Refining Creative Angles"] },
+    { month: "Phase 03", title: "Scaling Operations", tasks: ["Developing Service-Specific Videos", "Expanding Ad Reach Across Hubs", "Deploying Conversion-Focused Ads", "Scaling Budgets on Winning Creatives"] },
   ];
 
   return (
@@ -13,7 +13,7 @@ export function ExecutionSystem() {
       <Container className="relative z-10">
         <FadeIn className="text-center mb-24">
           <h2 className="text-[10px] tracking-[0.25em] text-[#ff5c00] uppercase mb-6 font-medium">10 / The Blueprint</h2>
-          <h3 className="text-5xl font-medium tracking-tight text-white mb-6">90-Day Execution Roadmap.</h3>
+          <h3 className="text-5xl font-medium tracking-tight text-white mb-6">Strategic Execution Roadmap.</h3>
         </FadeIn>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
